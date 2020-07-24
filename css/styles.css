@@ -31,6 +31,31 @@ h5{
 .column img:hover {
   opacity: 1;
 }
+.form-cont input {
+  width: 49%;
+  background: transparent;
+}
+.form-cont textarea {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+}
 #contact{
   background-image: url(../assets/backgrounds/c_image.jpg);
+  padding-top: 100px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: cover;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+
+}
+.form-cont {
+  text-align: center;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
 }

@@ -31,3 +31,6 @@ h5{
 .column img:hover {
   opacity: 1;
 }
+#contact{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+}

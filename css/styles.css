@@ -42,13 +42,14 @@ h5{
 }
 #contact{
   background-image: url(../assets/backgrounds/c_image.jpg);
-  padding-top: 100px;
+  padding-top: 50px;
   margin-bottom: 50px;
   background-size: cover;
   background-position: cover;
   width: 100%;
   max-width: 100%;
-  margin-top: 10%;
+  margin-top: 2%;
+  color: white;
 
 }
 .form-cont {
@@ -58,4 +59,18 @@ h5{
   max-width: 100%;
   left: 50%;
   transform: translate(-50%);
+  color: white;
+}
+.form-cont input {
+  width: 49%;
+  background: transparent;
+}
+.form-cont textarea {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+  
+}
+.footer-text-center{
+  margin-top:2px
 }

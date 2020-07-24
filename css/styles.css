@@ -61,15 +61,21 @@ h5{
   transform: translate(-50%);
   color: white;
 }
-.form-cont input {
-  width: 49%;
-  background: transparent;
-}
-.form-cont textarea {
+#name, #email{
   margin-top: 10px;
-  width: 100%;
   background: transparent;
-  
+  border: 1px solid black;
+  color: white;
+}
+#message{
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid black;
+  color: white;
+}
+::placeholder {
+  color:white;
+  opacity: 1;
 }
 .footer-text-center{
   margin-top:2px

@@ -9,3 +9,25 @@
   background-image: url(../assets/backgrounds/s_image.jpg);
   color: white;
 }
+.hide{
+  display: none;
+}
+h5{
+  font-weight: bold;
+
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}

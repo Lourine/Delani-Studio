@@ -48,13 +48,13 @@ h5{
 
 
 }
-.image-frame {
+.image-frame, .image-frame1,.image-frame2 ,.image-frame3 ,.image-frame4 ,.image-frame5 ,.image-frame6 ,.image-frame7 {
 	float: left;
 	position: relative;
 	margin: 5px;
   color: #333;
 }
-.image-caption{
+.image-caption,.image-caption1,.image-caption2,.image-caption3,.image-caption4,.image-caption5,.image-caption6,.image-caption7{
   display: none;
   color: black;
   width: auto;

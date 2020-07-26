@@ -1,3 +1,7 @@
+*{
+  font-family: 'Recursive', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -85,11 +89,11 @@ h5{
   background: transparent;
   border: 1px solid black;
   color: white;
+  width: 250px;
 }
 #message{
   margin-top: 10px;
   background: transparent;
-  border: 1px solid black;
   color: white;
 }
 ::placeholder {
@@ -101,4 +105,8 @@ h5{
 }
 footer{
   margin-top:10px;
+
+}
+footer {
+  text-align: center;
 }

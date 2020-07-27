@@ -1,8 +1,8 @@
 # DELANI STUDIO
-#### Delani Stduio Website
+#### Delani Studio Website
 #### By **Lourine Millicent**
 ## Description
-This is a webpage for Delani Studio where you get to see who they are , what they do and even showcase a portofolio of their previous works. They also provide a contact form that allows you to input your name and email address in case yo need to leave them comments or send in a message. 
+This is a web page for Delani Studio where you get to see who they are , what they do and even showcase a portofolio of their previous works. They also provide a contact form that allows you to input your name and email address in case you need to leave them comments or send in a message. 
 ## Setup/Installation Requirements
 - Clone this repository to a location in your file system using:  `git clone https://github.com/Lourine/Delani-Studio.git
 - Open terminal, then navigate to the root folder of the application by use of $cd commands.

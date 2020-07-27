@@ -55,13 +55,18 @@ $(document).ready(function(){
      var name = $("input#name").val();
       var email = $("input#email").val();
       var message = $("textarea#message").val();
-      if ($("input#name").val() && $("input#email").val()){
+      if ($("input#name").val() && $("input#email").val() && ($("textarea#message").val())){
         confirm(name + ", we have received your message. Thank you for reaching out to us.");
       
-      }
+      } 
       event.preventDefault();
     });
   });
+
+
+  function myFunction() {
+    document.getElementById("Form").reset();
+  }
 });
 
 

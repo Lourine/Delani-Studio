@@ -16,10 +16,16 @@
   background-repeat: no-repeat center center fixed;
   color: white;
   position: relative;
+}#mouse-click{
+  padding-top : 22px;
+  margin-top: 10%;
+  padding-bottom: 30px; 
 }
+
+
 .about{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 #service{
   background-image: url(../assets/backgrounds/s_image.jpg);
@@ -28,7 +34,7 @@
 .hide{
   display: none;
 }
-h5{
+h1, h5{
   font-weight: bold;
 
 }
@@ -73,6 +79,9 @@ h5{
   padding-top: 50%;
   font-family: 'Delius Swash Caps', cursive;
  }
+ #portofolio{
+   margin-top: 20px;
+ }
   
 #contact{
   background-image: url(../assets/backgrounds/c_image.jpg);
@@ -100,6 +109,9 @@ h5{
   color:white;
   opacity: 1;
 }
+#reset{
+  background-color: red;
+}
 #social{
   margin-top: 10px;
 }
@@ -109,4 +121,18 @@ footer{
 }
 footer {
   text-align: center;
+}
+@media screen and (max-width:450px) {
+  #contactForm input{
+      width: 100%;
+      margin-top: 10px;
+  } 
+  body{
+      overflow-x: hidden;
+  }
+}
+@media screen and (max-width:1024px) {
+  * {
+      font-size: calc(1vw + 1vh + .5vmin);
+  }
 }
